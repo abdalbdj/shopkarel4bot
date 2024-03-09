@@ -1,0 +1,34 @@
+{
+	"name": "نقل اعضاء",
+	"description": نقل اعضاء العقرب",
+	"logo": "https://telegra.ph/file/29b40447a6b6e79d54e77.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Source-Ze/temp",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "توكن بوت من @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "ايبي ايدي my.telegram.org",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
